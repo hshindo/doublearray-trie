@@ -1,0 +1,19 @@
+{
+  "name": "doublearray-trie",
+  "version": "0.0.1",
+  "description": "double-array trie",
+  "main": "datrie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hshindo/doublearray-trie.git"
+  },
+  "author": "Hiroyuki Shindo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hshindo/doublearray-trie/issues"
+  },
+  "homepage": "https://github.com/hshindo/doublearray-trie#readme"
+}
