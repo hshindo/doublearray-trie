@@ -9,10 +9,8 @@ function DoubleArray(keys) {
     keys.sort()
     items = [[0, keys.length-1, 0, 0]] // key range, lcp, nodeId
     while (items.length > 0) {
-        item = items.pop()
-        i = item[0], j = item[1], lcp = item[2], nodeId = item[3]
+        [i, j, lcp, nodeId] = items.pop()
         subranges = []
-
     }
 }
 
@@ -46,6 +44,4 @@ DoubleArray.prototype.append = function (nodeId, keyId, keys) {
 
 var words = [ ",", "the", ".", "to", "of", "a", "and", "in", "``", "that", "s", "for" ]
 var trie = new DoubleArray(words)
-//console.log(trie.check)
-a = [0,1,2]
-b = a[0], c=a[1], d=a[2]
+console.log(trie.check)
